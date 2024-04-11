@@ -1,0 +1,48 @@
+body{ 
+    margin: 3 px; 
+    background-color: #001524; 
+    color: #ff7d00; 
+   } 
+   .w50{ 
+    width: 50%; 
+   } 
+   .dflex{ 
+    display: flex; 
+   } 
+   .textcenter{ 
+    text-align: center; 
+   } 
+   .hfull{ 
+    height: 100vh; 
+   } 
+   .hcenter{ 
+    align-items: center; 
+   } 
+   img{ 
+    border: 2px solid purple; 
+   } 
+   .sigmatext{
+    margin: 3%;
+   }
+   .krygi{
+    background-color: #1c4662;
+    color: #ff7d00;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+   }
+   h1{
+    font-size: 150px;
+    margin: 20px;
+   }
+   .neonText {
+    color: #fff;
+    text-shadow:
+        0 0 3px #fff,
+        0 0 5px #fff,
+        0 0 12px #fff,
+        0 0 21px #ff7d00,
+        0 0 41px #ff7d00,
+        0 0 62px  #ff7d00,
+  }
