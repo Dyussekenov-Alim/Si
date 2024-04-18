@@ -1,7 +1,7 @@
 body{ 
     margin: 3 px; 
-    background-color: #001524; 
-    color: #ff7d00; 
+    background-color: #E4C59E; 
+    color: #322C2B; 
    } 
    .w50{ 
     width: 50%; 
@@ -33,16 +33,32 @@ body{
     font-size: 20px;
    }
    h1{
-    font-size: 150px;
+    font-size: 120px;
     margin: 20px;
    }
-   .neonText {
-    color: #fff;
-    text-shadow:
-        0 0 3px #fff,
-        0 0 5px #fff,
-        0 0 12px #fff,
-        0 0 21px #ff7d00,
-        0 0 41px #ff7d00,
-        0 0 62px  #ff7d00,
-  }
+   .peredatchik{
+    margin: 15px 70px;
+    background-color: #803D3B;
+    border: 1px solid #AF8260;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    height: 60px;
+   }
+   .shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.logo{
+    font-size: 30px;
+    margin: 0 50px 0 50px;
+    color: #E4C59E;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 0 0 50px;
+    color: #E4C59E;
+}
