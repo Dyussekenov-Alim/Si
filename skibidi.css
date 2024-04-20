@@ -12,14 +12,11 @@ body{
    .textcenter{ 
     text-align: center; 
    } 
-   .hfull{ 
-    height: 100vh; 
+   .h80{ 
+    height: 80vh; 
    } 
    .hcenter{ 
     align-items: center; 
-   } 
-   img{ 
-    border: 2px solid purple; 
    } 
    .sigmatext{
     margin: 3%;
@@ -46,7 +43,7 @@ body{
     padding: 0 42px;
     height: 60px;
    }
-   .shadows-into-light-regular {
+   .pocherk {
   font-family: "Shadows Into Light", cursive;
   font-weight: 400;
   font-style: normal;
@@ -61,4 +58,27 @@ body{
     font-size: 20px;
     margin: 0 0 0 50px;
     color: #E4C59E;
+}
+.border{
+    border: 3px solid red;
+}
+.test{
+    align-items: center;
+    justify-content: center;
+}
+.cvet{
+    background-color: #803D3B;
+}
+.forimg{
+    height: 60%;
+    width: 40%;
+}
+.w100{
+    width: 100%;
+}
+img{
+    z-index: 2;
+}
+.h50{
+    height: 50%;
 }
