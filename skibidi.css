@@ -1,6 +1,7 @@
 body{ 
     background-color: #E4C59E; 
-    color: #322C2B; 
+    color: #322C2B;
+    margin: 0%; 
    } 
    
    .w50{ 
@@ -13,7 +14,7 @@ body{
     text-align: center; 
    } 
    .h80{ 
-    height: 79vh; 
+    height: 99vh; 
    } 
    .hcenter{ 
     align-items: center; 
@@ -26,14 +27,16 @@ body{
     margin: 20px;
    }
    .peredatchik{
-    margin: 15px 70px;
+    margin: 0;
     background-color: #803D3B;
     border: 1px solid #AF8260;
-    border-radius: 20px;
     display: flex;
+    position: fixed;
     align-items: center;
     padding: 0 42px;
     height: 60px;
+    width:  100%;
+    z-index: 1;
    }
    .pocherk {
   font-family: "Shadows Into Light", cursive;
@@ -61,6 +64,7 @@ body{
 .cvet{
     background-color: #803D3B;
     margin: 0px;
+    color: white;
 }
 .forimg{
     height: 60%;
@@ -96,3 +100,8 @@ img{
     background-color: white;
     box-shadow: 0 0 700px 700px rgba(255, 238, 46, 0.512);
 }
+.sigmar-one-regular {
+    font-family: "Sigmar One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
