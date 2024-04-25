@@ -1,8 +1,8 @@
 body{ 
-    margin: 3 px; 
     background-color: #E4C59E; 
     color: #322C2B; 
    } 
+   
    .w50{ 
     width: 50%; 
    } 
@@ -13,21 +13,13 @@ body{
     text-align: center; 
    } 
    .h80{ 
-    height: 80vh; 
+    height: 79vh; 
    } 
    .hcenter{ 
     align-items: center; 
    } 
    .sigmatext{
     margin: 3%;
-   }
-   .krygi{
-    background-color: #1c4662;
-    color: #ff7d00;
-    text-decoration: none;
-    padding: 10px 30px 10px 30px;
-    border-radius: 10px;
-    font-size: 20px;
    }
    h1{
     font-size: 120px;
@@ -68,6 +60,7 @@ body{
 }
 .cvet{
     background-color: #803D3B;
+    margin: 0px;
 }
 .forimg{
     height: 60%;
@@ -81,4 +74,25 @@ img{
 }
 .h50{
     height: 50%;
+}
+.photo{
+    border: 30px solid white;
+    box-shadow: 10px 10px 10px 10px #3b5152;
+    rotate: 5deg;
+}
+.w48{
+    width: 48.29%;
+}
+.white{
+    background-color: white;
+}
+.krug{
+    z-index: 5;
+    position: fixed;
+    top: -700px;
+    height: 1px;
+    width: 1px;
+    left: calc(50% + 500px );
+    background-color: white;
+    box-shadow: 0 0 700px 700px rgba(255, 238, 46, 0.512);
 }
