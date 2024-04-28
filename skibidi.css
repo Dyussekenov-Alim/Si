@@ -26,10 +26,13 @@ body{
     font-size: 120px;
     margin: 20px;
    }
+   h2{
+    font-size: 40px;
+   }
    .peredatchik{
     margin: 0;
     background-color: #803D3B;
-    border: 1px solid #AF8260;
+    border: 2px solid #AF8260;
     display: flex;
     position: fixed;
     align-items: center;
@@ -37,6 +40,7 @@ body{
     height: 60px;
     width:  100%;
     z-index: 1;
+    top: -1px;
    }
    .pocherk {
   font-family: "Shadows Into Light", cursive;
@@ -67,7 +71,7 @@ body{
     color: white;
 }
 .forimg{
-    height: 60%;
+    height: 50%;
     width: 40%;
 }
 .w100{
@@ -105,3 +109,17 @@ img{
     font-weight: 300;
     font-style: normal;
   }
+.epic{
+    justify-content: center;
+    align-items: flex-start;
+}
+.ilovecheese{
+    height: 30%;
+    width: 45%;
+}   
+.zindex1{
+    z-index: 1;
+}
+.albmargin{
+    margin: 3%;
+}
